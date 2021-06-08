@@ -1,0 +1,27 @@
+{
+  "name": "digi-print",
+  "version": "1.0.0",
+  "description": "Print Digitalent in ascii art",
+  "main": "index.js",
+  "bin": {
+    "digi": "./index.js"
+  },
+  "files": [
+    "bin/output"
+  ],
+  "scripts": {
+    "postinstall": "node ./index.js",
+    "build": "node ./build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MartinMoe/digi-print"
+  },
+  "keywords": [],
+  "author": "Martin Moe",
+  "license": "MIT",
+  "devDependencies": {
+    "boxen": "^5.0.1",
+    "chalk": "^4.1.1"
+  }
+}
