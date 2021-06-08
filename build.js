@@ -11,10 +11,6 @@ const options = {
 const fs = require("fs");
 const path = require("path");
 
-// let output = `
-//       ${chalk.yellow.bold("╔═╗┬  ┬ ┬┌─┐┬ ┬  ╔╦╗┌─┐┌┐┌┌─┐┬─┐")}
-//       ${chalk.yellow.bold("║╣ │  │ │├─┤├─┤  ║║║├─┤││││ │├┬┘")}
-//       ${chalk.yellow.bold("╚═╝┴─┘┴└┘┴ ┴┴ ┴  ╩ ╩┴ ┴┘└┘└─┘┴└─")}
 let output = `
   ${chalk
     .hex("#AC92EB")
